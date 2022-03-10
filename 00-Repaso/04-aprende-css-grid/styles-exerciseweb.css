@@ -10,7 +10,7 @@ body{
     /* Columnas */
     grid-template-columns: 80% auto;
     /* Filas */
-    grid-template-rows: 20% 10% 60% auto;
+    grid-template-rows: 20% 10% 10% 25% 25% auto;
     /* Ajustar contenido o alinearlo donde te interese */
     /* justify-content: stretch; */
     height: 650px;
@@ -32,7 +32,8 @@ body{
 .c1{
     /* Espacio dentro del Grid */
     grid-column: 1 / span 2 ;
-    background-color: lightblue;
+    grid-row: 1 / span 2;
+    background-color: lightskyblue;
 }
 
 .c2{
@@ -41,10 +42,13 @@ body{
 }
 
 .c3{
+    grid-row: 4 / span 2;
     background-color: lightgoldenrodyellow;
 }
 
 .c4{
+    grid-row: 4 / span 2;
+
     background-color: lightseagreen;
 }
 
