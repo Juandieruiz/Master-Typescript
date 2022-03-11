@@ -36,10 +36,17 @@ function imprimir(){
 
 imprimir();
 
+// array
 var nombres = ['Juan','Diego', 'Luis'];
 alert(nombres[1]);
 
+// bucle for
 document.write('<h1>Listado de Nombres</h1>')
 for( i = 0; i < nombres.length; i++){
     document.write(nombres[i] + '<br/>');
 }
+
+// callback
+nombres.forEach(function(index){
+    document.write("<br>"+ index);
+});
