@@ -1,5 +1,30 @@
+@use 'anidacion';
+
 // Variables
+$color-principal: #ccc;
+$color-letra: blue;
 
 body{
-    background: #ccc;
+    background: $color-principal;
+}
+
+// Anidación
+    h1{
+        color: $color-letra;
+    }
+    
+    p{
+        color: $color-letra;
+    }
+
+// Mixins
+@mixin caja_personalizada($fondo: white){
+    background-color: $fondo;
+    border: 4px solid black;
+    box-shadow: 0 0 2 black;
+    color: $color-letra;
+}
+
+.caja{
+    @include caja_personalizada();
 }
