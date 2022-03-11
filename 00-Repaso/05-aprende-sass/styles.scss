@@ -33,3 +33,9 @@ body{
 .caja-secundaria{
     @include caja_personalizada($fondo: gray, $color: red);
 }
+
+// Operadores
+// Funcion cal en css
+.caja, .caja-secundaria{
+    width: 400px + 100px;
+}

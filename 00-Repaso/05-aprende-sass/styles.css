@@ -35,4 +35,8 @@ p {
   margin: 20px;
 }
 
+.caja, .caja-secundaria {
+  width: 500px;
+}
+
 /*# sourceMappingURL=styles.css.map */
