@@ -5,4 +5,14 @@
 
 var box = 'Hello from the console in JavaScript';
 
-console.log(box)
+function showName(){
+    var box = 'Hello User'
+    var name = 'Juan Diego Gómez'
+    console.log("in function: " + box);
+    console.log("in function: " + name);
+
+}
+
+showName();
+
+console.log("out function: " + box);
