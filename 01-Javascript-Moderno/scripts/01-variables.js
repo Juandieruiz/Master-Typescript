@@ -16,3 +16,8 @@ function showName(){
 showName();
 
 console.log("out function: " + box);
+
+// LET: ambíto de bloque
+let languaje = 'ES';
+
+console.log(country);
