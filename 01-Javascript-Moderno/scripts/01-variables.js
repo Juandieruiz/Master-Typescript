@@ -18,6 +18,17 @@ showName();
 console.log("out function: " + box);
 
 // LET: ambíto de bloque
-let languaje = 'ES';
+let country = 'Spain';
 
-console.log(country);
+function showCountry(){
+    console.log(country)
+}
+
+showCountry();
+
+if(country == 'Spain'){
+    let continent = 'Europe';
+    console.log(continent);
+}
+
+console.log(continent);
