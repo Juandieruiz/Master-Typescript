@@ -31,4 +31,13 @@ if(country == 'Spain'){
     console.log(continent);
 }
 
-console.log(continent);
+// Estando Fuera no imprimira la variable declarada dentro del bloque -> console.log(continent);
+
+// No accesible desde fuera del bloque
+// console.log('fuera', continente);
+
+for(contador = 0; contador <= 5; contador ++){
+    console.log(contador);
+}
+
+console.log("CONTADOR", contador);
